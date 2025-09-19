@@ -1,0 +1,69 @@
+import React from "react";
+// eslint-disable-next-line no-unused-vars
+import { motion } from "framer-motion";
+import { Link } from "react-scroll";
+
+export const Banner = () => {
+  return (
+    <div className="w-full min-h-[880px] h-full bg-banner bg-cover bg-center bg-no-repeat flex items-center justify-center relative">
+      <div className="container mx-auto px-4 md:px-0">
+        <div className="flex items-center justify-between gap-10">
+          <div className="max-w-[612px] w-full space-y-6 relative z-20">
+            <motion.h1
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-7xl text-white font-josefin font-bold capitalize"
+            >
+              Ciao, sono Luca
+            </motion.h1>
+            <motion.h3
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-5xl font-josefin capitalize font-semibold bg-gradient-to-r from-[#5dffff] to-[#ae0ca7] bg-clip-text text-transparent"
+            >
+              front-end developer.
+            </motion.h3>
+            <motion.p
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-lg text-[#fafafa] font-josefin font-normal leading-8"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              officia doloremque reiciendis excepturi ullam voluptatibus est
+              nesciunt dolore delectus rerum sit nisi rem fuga illum, aliquid ea
+              maxime corporis. Velit!
+            </motion.p>
+
+            {/* Pulsante che scrolla alla sezione Contact */}
+            <Link to="contact" smooth={true} duration={900}>
+              <motion.button
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6 }}
+                className="bg-gradient-to-r from-[#5dffff] to-[#ae0ca7] py-2 px-6 rounded-3xl text-lg text-white font-josefin font-semibold capitalize cursor-pointer"
+              >
+                Contatti
+              </motion.button>
+            </Link>
+          </div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="absolute md:right-10 bottom-0"
+        >
+          <img
+            className="md:max-w-[750px] w-full min-h-[600px] h-full object-cover"
+            src="/developer2.png"
+            alt="devimg"
+          />
+        </motion.div>
+      </div>
+    </div>
+  );
+};

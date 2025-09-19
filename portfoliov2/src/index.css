@@ -1,0 +1,19 @@
+/* google font josefin sans  */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-josefin: "Josefin Sans", sans-serif;
+}
+
+@layer components {
+  .trapezoid {
+    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+    background-color: #18052d;
+    width: 196px;
+    height: 47px;
+  }
+}
+
+.bg-banner {
+  background-image: url("/bg.png");
+}
