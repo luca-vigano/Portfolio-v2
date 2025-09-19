@@ -14,7 +14,6 @@ function App() {
       <About />
       <RecentWork />
       <Contact />
-
       <Footer />
     </>
   );
