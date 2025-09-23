@@ -29,7 +29,7 @@ export const Banner = () => {
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-lg text-[#fafafa] font-josefin font-normal leading-8"
+              className="text-lg text-[#e4dede] font-josefin font-normal leading-8"
             >
               Appassionato di tecnologia, ho trasformato questa passione in una
               professione frequentando il corso Epicode, dove ho acquisito

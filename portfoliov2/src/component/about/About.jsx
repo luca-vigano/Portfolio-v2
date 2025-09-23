@@ -26,7 +26,7 @@ export const About = () => {
               transition={{ duration: 0.8 }}
               className="text-xl text-[#fafafa] font-josefin font-normal leading-7 max-w-[800px] w-full"
             >
-              Sono un junior front-end developer in cerca di nuove opportunità
+              Sono uno junior front-end developer in cerca di nuove opportunità
               in un ambiente stimolante e dinamico, dove poter crescere
               professionalmente e contribuire con entusiasmo ai progetti del
               team. Ho frequentato un corso intensivo di 6 mesi come Full-stack
