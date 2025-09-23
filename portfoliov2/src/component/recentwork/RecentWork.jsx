@@ -232,14 +232,14 @@ export const RecentWork = () => {
               <div className="flex items-center gap-3 mt-6">
                 <a
                   className="text-white text-2xl"
-                  href="https://github.com/luca-vigano/Portfolio-v2"
+                  href="https://github.com/luca-vigano"
                   target="_blank"
                 >
                   <FaGithub />
                 </a>
                 <a
                   className="text-white text-2xl"
-                  href="https://github.com/luca-vigano/Portfolio-v2"
+                  href="https://github.com/luca-vigano"
                   target="_blank"
                 >
                   <FaLinkedin />
