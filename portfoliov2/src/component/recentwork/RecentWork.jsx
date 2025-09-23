@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
@@ -8,7 +9,7 @@ export const RecentWork = () => {
   return (
     <div
       id="work"
-      className="w-full py-[60px] bg-[#18052d] flex items-center justify-center"
+      className="w-full py-[70px] bg-[#18052d] flex items-center justify-center"
     >
       <div className="container mx-auto px-4 md:px-0">
         {/* recent work header wrapper */}
@@ -44,25 +45,33 @@ export const RecentWork = () => {
                 project
               </h4>
               <h2 className="text-3xl text-white font-josefin font-bold capitalize mt-4">
-                esempio di progetto
+                meteo app
               </h2>
-              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#5dffff] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
+              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#51d7d7] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
                 <p>
                   Meteo web app per visualizzare info sul meteo in tempo reale
                   con numerose informazioni aggiuntive come temperatura,
                   temperatura percepita, visibilità, vento, umidità, alba e
                   tramonto con la possibilità di cambiare in tempo reale i gradi
-                  °C/°F. In oltre mostra comodamente le previsioni dei prossimi
-                  5 giorni della località scelta.
+                  °C/°F. In aggiunta mostra comodamente le previsioni dei
+                  prossimi 5 giorni della località scelta.
                 </p>
               </div>
               {/* social link */}
               <div className="flex items-center gap-3 mt-6">
-                <a className="text-white text-2xl" href="">
+                <a
+                  className="text-white text-2xl"
+                  href="https://github.com/luca-vigano/weather-app"
+                  target="_blank"
+                >
                   <FaGithub />
                 </a>
-                <a className="text-white text-2xl" href="">
-                  <FaLinkedin />
+                <a
+                  className="text-white text-2xl"
+                  href="https://lucaweatherapp.netlify.app/"
+                  target="_blank"
+                >
+                  <FaExternalLinkAlt />
                 </a>
               </div>
             </motion.div>
@@ -104,25 +113,30 @@ export const RecentWork = () => {
                 project
               </h4>
               <h2 className="text-3xl text-white font-josefin font-bold capitalize mt-4">
-                esempio di progetto
+                movie app
               </h2>
-              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#5dffff] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
+              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#51d7d7] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
                 <p>
-                  Meteo web app per visualizzare info sul meteo in tempo reale
-                  con numerose informazioni aggiuntive come temperatura,
-                  temperatura percepita, visibilità, vento, umidità, alba e
-                  tramonto con la possibilità di cambiare in tempo reale i gradi
-                  °C/°F. In oltre mostra comodamente le previsioni dei prossimi
-                  5 giorni della località scelta.
+                  Movie app per cercare i tuoi film preferiti o i tuoi prossimi
+                  film da vedere. Consente di aggiungere e rimuovere i film ai
+                  tuoi preferiti e di visualizzarli anche in una pagina dedicata
                 </p>
               </div>
               {/* social link */}
               <div className="flex items-center gap-3 mt-6">
-                <a className="text-white text-2xl" href="">
+                <a
+                  className="text-white text-2xl"
+                  href="https://github.com/luca-vigano/react-movie"
+                  target="_blank"
+                >
                   <FaGithub />
                 </a>
-                <a className="text-white text-2xl" href="">
-                  <FaLinkedin />
+                <a
+                  className="text-white text-2xl"
+                  href="https://lucamovieapp.netlify.app/"
+                  target="_blank"
+                >
+                  <FaExternalLinkAlt />
                 </a>
               </div>
             </motion.div>
@@ -139,25 +153,30 @@ export const RecentWork = () => {
                 project
               </h4>
               <h2 className="text-3xl text-white font-josefin font-bold capitalize mt-4">
-                esempio di progetto
+                to-do list
               </h2>
-              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#5dffff] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
+              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#51d7d7] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
                 <p>
-                  Meteo web app per visualizzare info sul meteo in tempo reale
-                  con numerose informazioni aggiuntive come temperatura,
-                  temperatura percepita, visibilità, vento, umidità, alba e
-                  tramonto con la possibilità di cambiare in tempo reale i gradi
-                  °C/°F. In oltre mostra comodamente le previsioni dei prossimi
-                  5 giorni della località scelta.
+                  una to-do list con design semplice, pulito e minimal che
+                  permette in semplicità di segnare e gestire tutte le task di
+                  cui hai bosogno e avere tutto sotto controllo.
                 </p>
               </div>
               {/* social link */}
               <div className="flex items-center gap-3 mt-6">
-                <a className="text-white text-2xl" href="">
+                <a
+                  className="text-white text-2xl"
+                  href="https://github.com/luca-vigano/todo-list"
+                  target="_blank"
+                >
                   <FaGithub />
                 </a>
-                <a className="text-white text-2xl" href="">
-                  <FaLinkedin />
+                <a
+                  className="text-white text-2xl"
+                  href="https://lucatodolist.netlify.app/"
+                  target="_blank"
+                >
+                  <FaExternalLinkAlt />
                 </a>
               </div>
             </motion.div>
@@ -200,24 +219,29 @@ export const RecentWork = () => {
                 project
               </h4>
               <h2 className="text-3xl text-white font-josefin font-bold capitalize mt-4">
-                esempio di progetto
+                work in progress
               </h2>
-              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#5dffff] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
+              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#51d7d7] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
                 <p>
-                  Meteo web app per visualizzare info sul meteo in tempo reale
-                  con numerose informazioni aggiuntive come temperatura,
-                  temperatura percepita, visibilità, vento, umidità, alba e
-                  tramonto con la possibilità di cambiare in tempo reale i gradi
-                  °C/°F. In oltre mostra comodamente le previsioni dei prossimi
-                  5 giorni della località scelta.
+                  Ogni lavoro concluso apre la strada al prossimo.Non ci si
+                  ferma mai e ogni progetto è un passo in più per crescere,
+                  imparare e realizzare nuove idee.
                 </p>
               </div>
               {/* social link */}
               <div className="flex items-center gap-3 mt-6">
-                <a className="text-white text-2xl" href="">
+                <a
+                  className="text-white text-2xl"
+                  href="https://github.com/luca-vigano/Portfolio-v2"
+                  target="_blank"
+                >
                   <FaGithub />
                 </a>
-                <a className="text-white text-2xl" href="">
+                <a
+                  className="text-white text-2xl"
+                  href="https://github.com/luca-vigano/Portfolio-v2"
+                  target="_blank"
+                >
                   <FaLinkedin />
                 </a>
               </div>

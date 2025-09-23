@@ -26,10 +26,18 @@ export const Footer = () => {
             transition={{ duration: 0.6 }}
             className="flex items-center gap-4"
           >
-            <a className="text-white text-2xl" href="">
+            <a
+              className="text-white text-2xl"
+              href="https://github.com/luca-vigano"
+              target="_blank"
+            >
               <FaGithub />
             </a>
-            <a className="text-white text-2xl" href="">
+            <a
+              className="text-white text-2xl"
+              href="https://www.linkedin.com/in/luca-vigan%C3%B2-58302b269/"
+              target="_blank"
+            >
               <FaLinkedin />
             </a>
           </motion.div>

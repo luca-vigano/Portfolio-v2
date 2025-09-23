@@ -21,7 +21,7 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full py-[60px] bg-[#18052d] flex items-center justify-center"
+      className="w-full py-[80px] bg-[#18052d] flex items-center justify-center"
     >
       <div className="container mx-auto px-4 md:px-0">
         <div className="flex items-center justify-center flex-col gap-6 mb-10">
@@ -46,8 +46,11 @@ export const Contact = () => {
               Inviami un messaggio
             </h3>
             <p className="text-lg text-[#fafafa] font-josefin font-normal leading-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              alias odit quisquam dolores. Omnis architecto, harum expedita modi
+              In questa sezione è possibile trovare i miei riferimenti
+              personali, i link utili al mio profilo Linkedin e Github e
+              scaricare direttamente il mio CV. In più nel box avete la
+              possibilità, lasciando i vostri riferimenti, di scrivermi per
+              domande e chiarimenti a cui risponderò nel minor tempo possibile.
             </p>
 
             {/* contact box */}
@@ -56,15 +59,24 @@ export const Contact = () => {
                 <div className="bg-gradient-to-r from-[#5dffff] to-[#ae0ca7] w-[45px] h-[45px] flex items-center justify-center rounded-xl text-lg text-white">
                   <BsFillTelephoneFill />
                 </div>
-                <p className="text-base text-[#fafafa] font-josefin font-normal">
+                <a
+                  href="tel:+393936245467"
+                  className="text-base text-[#fafafa] font-josefin font-normal"
+                >
                   +39 393 6245467
-                </p>
+                </a>
               </div>
               <div className="flex items-center gap-3">
                 <div className="bg-gradient-to-r from-[#5dffff] to-[#ae0ca7] w-[45px] h-[45px] flex items-center justify-center rounded-xl text-lg text-white">
                   <FaMailBulk />
                 </div>
-                <p className="text-base text-[#fafafa] font-josefin font-normal">
+                <p
+                  className="text-base text-[#fafafa] font-josefin font-normal cursor-pointer"
+                  onClick={() => {
+                    navigator.clipboard.writeText("luca.vigano@hotmail.com");
+                    alert("Email copiata negli appunti!");
+                  }}
+                >
                   luca.vigano@hotmail.com
                 </p>
               </div>
