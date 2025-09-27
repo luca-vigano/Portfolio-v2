@@ -48,7 +48,7 @@ export const Contact = () => {
             <p className="text-lg text-[#fafafa] font-josefin font-normal leading-7">
               In questa sezione è possibile trovare i miei riferimenti
               personali, i link utili al mio profilo Linkedin e Github e
-              scaricare direttamente il mio CV. Inoltre box avete la
+              scaricare direttamente il mio CV. Inoltre nel box avete la
               possibilità, lasciando i vostri riferimenti, di scrivermi per
               domande e chiarimenti a cui risponderò nel minor tempo possibile.
             </p>

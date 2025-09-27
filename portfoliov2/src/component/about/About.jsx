@@ -18,7 +18,7 @@ export const About = () => {
               transition={{ duration: 0.8 }}
               className="text-5xl font-josefin capitalize font-semibold bg-gradient-to-r from-[#5dffff] to-[#ae0ca7] bg-clip-text text-transparent"
             >
-              about
+              about me
             </motion.h3>
             <motion.p
               initial={{ opacity: 0, y: -100 }}

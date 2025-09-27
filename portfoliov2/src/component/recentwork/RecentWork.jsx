@@ -47,7 +47,7 @@ export const RecentWork = () => {
               <h2 className="text-3xl text-white font-josefin font-bold capitalize mt-4">
                 meteo app
               </h2>
-              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#51d7d7] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
+              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#3baac8] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
                 <p>
                   Meteo web app per visualizzare info sul meteo in tempo reale
                   con numerose informazioni aggiuntive come temperatura,
@@ -115,7 +115,7 @@ export const RecentWork = () => {
               <h2 className="text-3xl text-white font-josefin font-bold capitalize mt-4">
                 movie app
               </h2>
-              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#51d7d7] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
+              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#3baac8] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
                 <p>
                   Movie app per cercare i tuoi film preferiti o i tuoi prossimi
                   film da vedere. Consente di aggiungere e rimuovere i film ai
@@ -155,7 +155,7 @@ export const RecentWork = () => {
               <h2 className="text-3xl text-white font-josefin font-bold capitalize mt-4">
                 to-do list
               </h2>
-              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#51d7d7] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
+              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#3baac8] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
                 <p>
                   una to-do list con design semplice, pulito e minimal che
                   permette in semplicità di segnare e gestire tutte le task di
@@ -221,7 +221,7 @@ export const RecentWork = () => {
               <h2 className="text-3xl text-white font-josefin font-bold capitalize mt-4">
                 work in progress
               </h2>
-              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#51d7d7] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
+              <div className="mt-6 p-4 bg-gradient-to-r from-[#dc00d3] to-[#3baac8] rounded-lg text-base text-[#fafafa] font-josefin font-normal">
                 <p>
                   Ogni lavoro concluso apre la strada al prossimo.Non ci si
                   ferma mai e ogni progetto è un passo in più per crescere,

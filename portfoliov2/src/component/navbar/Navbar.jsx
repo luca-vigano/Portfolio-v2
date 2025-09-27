@@ -27,7 +27,7 @@ export const Navbar = () => {
                 offset={50}
                 className="text-lg text-white font-inter font-medium uppercase cursor-pointer"
               >
-                about
+                about me
               </Link>
             </li>
 
@@ -98,7 +98,7 @@ export const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 className="text-lg text-white font-inter font-medium uppercase cursor-pointer"
               >
-                about
+                about me
               </Link>
             </li>
             <li>
