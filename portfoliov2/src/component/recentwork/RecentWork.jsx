@@ -239,7 +239,7 @@ export const RecentWork = () => {
                 </a>
                 <a
                   className="text-white text-2xl"
-                  href="https://github.com/luca-vigano"
+                  href="https://www.linkedin.com/in/lucavigan%C3%B290/"
                   target="_blank"
                 >
                   <FaLinkedin />

@@ -90,7 +90,7 @@ export const Contact = () => {
               </div>
               <div className="flex items-center gap-3">
                 <a
-                  href="https://www.linkedin.com/in/luca-vigan%C3%B2-58302b269/"
+                  href="https://www.linkedin.com/in/lucavigan%C3%B290/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3"
